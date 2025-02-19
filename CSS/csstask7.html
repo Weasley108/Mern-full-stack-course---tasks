@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #783750;
+        }
+        .registration-container {
+            background-color: #5e2436;
+            padding: 20px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+        .input-group {
+            margin-bottom: 10px;
+        }
+        .input-group label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .input-group input,
+        .input-group select,
+        .input-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .input-group textarea {
+            height: 60px;
+            resize: none;
+        }
+        .radio-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .register-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .register-btn:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="registration-container">
+        <form>
+            <div class="input-group">
+                <label>Name:</label>
+                <input type="text" placeholder="your name">
+            </div>
+
+            <div class="input-group">
+                <label>Email:</label>
+                <input type="email" placeholder="your email">
+            </div>
+
+            <div class="input-group">
+                <label>Password:</label>
+                <input type="password" placeholder="your password">
+            </div>
+
+            <div class="input-group">
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="your phone number">
+            </div>
+
+            <div class="input-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Other
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Language:</label>
+                <select>
+                    <option>Select language</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Spanish</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Zip Code:</label>
+                <input type="text" placeholder="your zip code">
+            </div>
+
+            <div class="input-group">
+                <label>About:</label>
+                <textarea placeholder="Write about yourself..."></textarea>
+            </div>
+
+            <button class="register-btn">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>

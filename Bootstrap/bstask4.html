@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Design Cards</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-img-top {
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .link-custom {
+            color: #d4a700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link-custom:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+            <div class="card">
+                <div class="card-img-top" style="background-image: url('Free_Business_Card_Mockup_4-2.jpg');">
+                    MATERIAL CARDS
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="#" class="link-custom">LINK</a> &nbsp; <a href="#" class="link-custom">LINK</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+            <div class="card">
+                <div class="card-img-top" style="background-image: url('bhg-valentines-d.jpg');">
+                    MATERIAL CARDS
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="#" class="link-custom">LINK</a> &nbsp; <a href="#" class="link-custom">LINK</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+            <div class="card">
+                <div class="card-img-top" style="background-image: url('AiCH34_02.png');">
+                    MATERIAL CARDS
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="#" class="link-custom">LINK</a> &nbsp; <a href="#" class="link-custom">LINK</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col">
+            <div class="card">
+                <div class="card-img-top" style="background-image: url('stack-birthday.webp');">
+                    MATERIAL CARDS
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="#" class="link-custom">LINK</a> &nbsp; <a href="#" class="link-custom">LINK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfff5e;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: blue;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h1 {
+    color: purple;
+}
+
+hr {
+    border: 1px dashed black;
+}
